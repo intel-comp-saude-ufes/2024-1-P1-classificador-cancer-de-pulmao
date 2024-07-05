@@ -70,6 +70,7 @@ dmypy.json
 .vscode
 
 # ignore data
-data/*
-!data/.gitkeep
-!data/examples
+data/lung_colon_image_set
+data/aulas
+data/*.csv
+

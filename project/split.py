@@ -33,13 +33,14 @@ def main() -> None:
         random_state=42,
     )
     train = pd.concat([X_train, y_train], axis=1)
-    train.to_csv('./data/train.csv', index=False)
+    train.to_csv("./data/train.csv", index=False)
 
     test = pd.concat([X_test, y_test], axis=1)
-    test.to_csv('./data/test.csv', index=False) 
+    test.to_csv("./data/test.csv", index=False)
 
     val = pd.concat([X_val, y_val], axis=1)
-    val.to_csv('./data/val.csv', index=False) 
+    val.to_csv("./data/val.csv", index=False)
+
 
 if __name__ == "__main__":
     main()

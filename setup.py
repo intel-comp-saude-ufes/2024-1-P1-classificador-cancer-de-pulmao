@@ -31,5 +31,6 @@ setup(
         "matplotlib==3.9.0",
         "seaborn==0.13.2",
         "tabulate==0.9.0",
+        "tqdm==4.66.4",
     ],
 )
