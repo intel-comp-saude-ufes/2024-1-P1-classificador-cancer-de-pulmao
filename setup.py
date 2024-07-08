@@ -12,6 +12,7 @@ setup(
     package_dir={"": "."},
     entry_points={
         "console_scripts": [
+            "cross-val=project.cross_validation:main",
             "train=project.train:main",
             "test=project.inference:main",
             "split=project.split:main",
