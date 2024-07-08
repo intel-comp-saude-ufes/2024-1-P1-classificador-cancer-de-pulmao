@@ -17,6 +17,9 @@ def main() -> None:
     X = df["features"]
     y = df["labels"]
 
+    train = pd.concat([X, y], axis=1)
+    train.to_csv("./data/all.csv", index=False)
+
     X_train, X_test, y_train, y_test = train_test_split(
         X,
         y,
