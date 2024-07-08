@@ -33,5 +33,6 @@ setup(
         "seaborn==0.13.2",
         "tabulate==0.9.0",
         "tqdm==4.66.4",
+        "jupyter==1.0.0",
     ],
 )
