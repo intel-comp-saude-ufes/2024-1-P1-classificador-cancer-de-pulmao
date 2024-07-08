@@ -73,4 +73,6 @@ dmypy.json
 data/lung_colon_image_set
 data/aulas
 data/*.csv
+data/*/*.pth
+data/*/*.csv
 
