@@ -208,9 +208,9 @@ jupyter-lab
 
 A apresentação do projeto foi disponibiliza no YouTube no seguinte link:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eMlx5fFNoYc/0.jpg)](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/72hnkxTNnqw/0.jpg)](https://www.youtube.com/watch?v=72hnkxTNnqw)
 
-Além disso, o relatório/artigo descrevendo o projjeto pode ser encontrado em [results/report.pdf](results/report.pdf). Nele é realizada uma discussão do problema, trabalhos relacionados, metodologia, resultados e trabalhos futuros. Sobre cada divisão gerada no processo de validação cruzada, uma matriz de confusão foi calculada sobre o conjunto de teste em específico. A média das matrizes de confusões para os dois modelos avaliados pode ser observada a ser:
+Além disso, o relatório/artigo descrevendo o projeto pode ser encontrado em [results/report.pdf](results/report.pdf). Nele é realizada uma discussão do problema, trabalhos relacionados, metodologia, resultados e trabalhos futuros. Sobre cada divisão gerada no processo de validação cruzada, uma matriz de confusão foi calculada sobre o conjunto de teste em específico. A média das matrizes de confusões para os dois modelos avaliados pode ser observada a seguir:
 
 
 | VGG-19                  |  Resnet50                |
@@ -219,6 +219,6 @@ Além disso, o relatório/artigo descrevendo o projjeto pode ser encontrado em [
 
 Os resultados mostram que a utilização de qualquer um dos classificadores em uma aplicação em produção apresentariam resultados semelhantes. Assim, poderia-se utilizar os algoritmos como uma ferramenta para melhorar a eficiência no diagnóstico de câncer de pulmão utilizando imagens histopatológicas.
 
-## Licença
+## Licenças
 
 Este projeto é licenciado sob os termos da [licença MIT](./LICENSE) e está disponível gratuitamente.
